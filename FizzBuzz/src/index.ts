@@ -35,7 +35,7 @@ const getFizzBuzzValue = (num: number): FizzBuzzResult => {
   }
 };
 
-const printFizzBuzz = (num: number) => {
+const printFizzBuzz = (num: number): void => {
   const results: FizzBuzzResult[] = generateFizzBuzz(num);
   console.log(results);
 };
